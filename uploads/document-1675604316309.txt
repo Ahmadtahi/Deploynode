@@ -1,0 +1,30 @@
+1) Create three screens Login, Posts and Create Post.
+Login: Basic email and password. (Login API should be integrated).
+Posts: fetch and display the list of posts from the API https://jsonplaceholder.typicode.com/posts
+Create Post: A form which will store the data in Storage when the form submitted. The form should contain the following fields
+- Post Title
+- Post Description
+- Created By
+
+2) The user should not be able to access the posts and create post screen without logging in.
+3) The user should not be able to access the 'Create Post' screen if the role of the customer is 'customer'.
+
+Note: Login endpoint:- POST https://api.teamxmv.com/api/token 
+LOGIN BODY FOR STORE OWNER: {
+    "email": "clothing@gmail.com",
+    "password": "Test@1234"
+}
+LOGIN BODY FOR CUSTOMER: {
+    "email": "usama@teamx.global",
+    "password": "Test@1234"
+}
+
+USER Roles: ['store_owner', 'customer']
+
+Preferences:- 
+- It is required to use functional and modern React practises. 
+- Clean code matters.
+- File Structure matters.
+- Dont spent to much time on styling things up. Basic styles will do the trick. TailwindCSS is preffered as well.
+
+For any queries:- Email at saamaa@teamx.global
